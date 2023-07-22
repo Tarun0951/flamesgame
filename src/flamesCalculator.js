@@ -3,10 +3,7 @@ const calculateFlames = (yourName, partnerName) => {
     const partnerNameLower = partnerName.toLowerCase().replace(/\s/g, '');
     const combinedNames = yourNameLower + partnerNameLower;
   
-   if(yourNameLower ==='nishma' || partnerNameLower==='nishma'){
-    return 'WIFE';
-   }
-    
+   
   
     const flamesSequence = 'flames';
     let remainingLetters = combinedNames.split('');
