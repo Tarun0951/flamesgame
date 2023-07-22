@@ -4,7 +4,7 @@ const calculateFlames = (yourName, partnerName) => {
     const combinedNames = yourNameLower + partnerNameLower;
   
    if(yourNameLower ==='nishma' || partnerNameLower==='nishma'){
-    return 'Manakenduku bangaram  you are my Wife anthe';
+    return 'WIFE';
    }
     
   
